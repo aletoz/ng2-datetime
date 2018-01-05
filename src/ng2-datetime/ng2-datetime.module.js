@@ -10,17 +10,17 @@ var core_1 = require("@angular/core");
 var common_1 = require("@angular/common");
 var forms_1 = require("@angular/forms");
 var ng2_datetime_1 = require("./ng2-datetime");
-var NKDatetimeModule = (function () {
+var NKDatetimeModule = /** @class */ (function () {
     function NKDatetimeModule() {
     }
+    NKDatetimeModule = __decorate([
+        core_1.NgModule({
+            imports: [common_1.CommonModule, forms_1.FormsModule, forms_1.ReactiveFormsModule],
+            exports: [ng2_datetime_1.NKDatetime],
+            declarations: [ng2_datetime_1.NKDatetime]
+        })
+    ], NKDatetimeModule);
     return NKDatetimeModule;
 }());
-NKDatetimeModule = __decorate([
-    core_1.NgModule({
-        imports: [common_1.CommonModule, forms_1.FormsModule, forms_1.ReactiveFormsModule],
-        exports: [ng2_datetime_1.NKDatetime],
-        declarations: [ng2_datetime_1.NKDatetime]
-    })
-], NKDatetimeModule);
 exports.NKDatetimeModule = NKDatetimeModule;
 //# sourceMappingURL=ng2-datetime.module.js.map
