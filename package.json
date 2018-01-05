@@ -18,7 +18,8 @@
     "start": "webpack-dev-server --inline --progress --port 8080",
     "test": "karma start",
     "tsc": "tsc",
-    "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail && npm run tsc"
+    "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail && npm run tsc",
+    "postinstall": "typings install"
   },
   "license": "MIT",
   "repository": {
@@ -29,7 +30,8 @@
     "bootstrap": ">=3.0.0",
     "bootstrap-datepicker": "1.7.0-RC1",
     "bootstrap-timepicker": "^0.5.2",
-    "jquery": ">=2.2.1"
+    "jquery": ">=2.2.1",
+    "typings": "^2.1.1"
   },
   "devDependencies": {
     "@angular/common": "^5.2.0-rc.0",
@@ -69,5 +71,8 @@
     "webpack-dev-server": "^1.14.1",
     "webpack-merge": "^0.14.0",
     "zone.js": "^0.8.4"
+  },
+  "peerDependencies": {
+    "typings": "*"
   }
 }
