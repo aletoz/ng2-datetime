@@ -1,65 +1,89 @@
 {
-    "extends": "tslint:recommended",
-    "rulesDirectory": [
-        "node_modules/codelyzer"
-    ],
     "rules": {
-        "angular-whitespace": [
+        "class-name": true,
+        "comment-format": [
             true,
-            "check-interpolation",
-            "check-pipe"
+            "check-space"
         ],
-        "banana-in-box": true,
-        "templates-no-negated-async": true,
-        "directive-selector": [
+        "curly": true,
+        "eofline": true,
+        "forin": true,
+        "indent": [
             true,
-            "attribute",
-            [
-                "dir-prefix1",
-                "dir-prefix2"
-            ],
-            "camelCase"
+            "spaces"
         ],
-        "component-selector": [
+        "label-position": true,
+        "max-line-length": [
             true,
-            "element",
-            [
-                "cmp-prefix1",
-                "cmp-prefix2"
-            ],
-            "kebab-case"
+            140
         ],
-        "use-input-property-decorator": true,
-        "use-output-property-decorator": true,
-        "use-host-property-decorator": true,
-        "no-attribute-parameter-decorator": true,
-        "no-input-rename": true,
-        "no-output-rename": true,
-        "no-forward-ref": true,
-        "use-view-encapsulation": false,
-        "use-life-cycle-interface": true,
-        "use-pipe-transform-interface": true,
-        "pipe-naming": [
+        "member-access": false,
+        "member-ordering": [
             true,
-            "camelCase",
-            "Pipe"
+            "static-before-instance",
+            "variables-before-functions"
         ],
-        "component-class-suffix": [
+        "no-arg": true,
+        "no-bitwise": true,
+        "no-console": [
             true,
-            "Component"
+            "debug",
+            "info",
+            "time",
+            "timeEnd",
+            "trace"
         ],
-        "directive-class-suffix": [
+        "no-construct": true,
+        "no-debugger": true,
+        "no-duplicate-variable": true,
+        "no-empty": false,
+        "no-eval": true,
+        "no-inferrable-types": true,
+        "no-shadowed-variable": true,
+        "no-string-literal": false,
+        "no-switch-case-fall-through": true,
+        "no-trailing-whitespace": true,
+        "no-unused-expression": true,
+        "no-use-before-declare": true,
+        "no-var-keyword": true,
+        "object-literal-sort-keys": false,
+        "one-line": [
             true,
-            "Directive"
-        ],
-        "ordered-imports": [
-            false
+            "check-open-brace",
+            "check-catch",
+            "check-else",
+            "check-whitespace"
         ],
         "quotemark": [
-            false
+            true,
+            "single"
         ],
-        "trailing-comma": [
-            false
+        "radix": true,
+        "semicolon": [
+            "always"
+        ],
+        "triple-equals": [
+            true,
+            "allow-null-check"
+        ],
+        "typedef-whitespace": [
+            true,
+            {
+                "call-signature": "nospace",
+                "index-signature": "nospace",
+                "parameter": "nospace",
+                "property-declaration": "nospace",
+                "variable-declaration": "nospace"
+            }
+        ],
+        "variable-name": false,
+        "whitespace": [
+            true,
+            "check-branch",
+            "check-decl",
+            "check-operator",
+            "check-separator",
+            "check-type"
         ]
     }
 }

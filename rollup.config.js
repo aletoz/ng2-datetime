@@ -20,8 +20,12 @@ import sourcemaps from 'rollup-plugin-sourcemaps';
 const globals = {
     '@angular/core': 'ng.core',
     '@angular/common': 'ng.common',
+    '@angular/forms': 'ng.forms',
     'rxjs/Observable': 'Rx',
-    'rxjs/Observer': 'Rx'
+    'rxjs/Observer': 'Rx',
+    'rxjs/add/operator/map': 'Rx.Observable.prototype',
+    'rxjs/observable/fromPromise': 'Rx.Observable',
+    'rxjs/observable/forkJoin': 'Rx.Observable'
 };
 
 export default {
@@ -30,7 +34,7 @@ export default {
     onwarn: () => { return },
     output: {
         format: 'umd',
-        name: 'ng.angularLibraryStarter',
+        name: 'ng.ngxDatetime',
         globals: globals,
         sourcemap: true,
         exports: 'named'

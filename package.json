@@ -1,10 +1,10 @@
 {
-    "name": "angular-library-starter",
+    "name": "ngx-datetime",
     "version": "0.0.1",
-    "description": "Build an Angular library compatible with AoT compilation and Tree shaking",
-    "main": "./bundles/angular-library-starter.umd.js",
-    "module": "./esm5/angular-library-starter.js",
-    "es2015": "./esm2015/angular-library-starter.js",
+    "description": "ngx-datetime based on ng2-datetime",
+    "main": "./bundles/ngx-datetime.umd.js",
+    "module": "./esm5/ngx-datetime.js",
+    "es2015": "./esm2015/ngx-datetime.js",
     "scripts": {
         "build": "node build.js",
         "test": "karma start",
@@ -14,16 +14,16 @@
         "compodoc": "compodoc -p tsconfig.json",
         "compodoc-serve": "compodoc -s"
     },
-    "typings": "./angular-library-starter.d.ts",
+    "typings": "./ngx-datetime.d.ts",
     "author": "",
     "repository": {
         "type": "git",
-        "url": "https://github.com/robisim74/angular-library-starter.git"
+        "url": "https://github.com/dmaciaszek/ng2-datetime"
     },
     "bugs": {
-        "url": "https://github.com/robisim74/angular-library-starter/issues"
+        "url": ""
     },
-    "homepage": "https://github.com/robisim74/angular-library-starter",
+    "homepage": "https://github.com/dmaciaszek/ng2-datetime",
     "keywords": [
         "angular",
         "javascript",
@@ -31,11 +31,15 @@
     ],
     "license": "MIT",
     "dependencies": {
+        "bootstrap": ">=3.0.0",
+        "bootstrap-datepicker": "1.7.0-RC1",
+        "bootstrap-timepicker": "^0.5.2",
         "tslib": "^1.7.1"
     },
     "peerDependencies": {
         "@angular/common": ">= 5.0.0",
-        "@angular/core": ">= 5.0.0"
+        "@angular/core": ">= 5.0.0",
+        "typings": "*"
     },
     "devDependencies": {
         "@angular/animations": "5.0.0",
@@ -46,9 +50,12 @@
         "@angular/platform-browser": "5.0.0",
         "@angular/platform-browser-dynamic": "5.0.0",
         "@angular/platform-server": "5.0.0",
+        "@angular/forms": "5.0.0",
         "@compodoc/compodoc": "1.0.3",
         "@types/jasmine": "2.6.2",
         "@types/node": "8.0.47",
+        "@types/core-js": "^0.9.35",
+        "@types/jquery": "^2.0.37",
         "chalk": "2.3.0",
         "codelyzer": "4.0.0",
         "core-js": "2.5.1",
@@ -74,6 +81,8 @@
         "typescript": "2.4.2",
         "uglify-js": "3.1.6",
         "webpack": "3.8.1",
-        "zone.js": "0.8.18"
+        "zone.js": "0.8.18",
+        "typings": "^2.1.1",
+        "jquery": ">=2.2.1"
     }
 }

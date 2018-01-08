@@ -18,10 +18,10 @@ and the _es5_ bundles in _esm5_ folder. If you want to upgrade to the new buildi
 - remove _scripts/map-sources.js_ file
 
 For a full comparison, see the following commit:
-- https://github.com/robisim74/angular-library-starter/commit/2acd8a632716cfd188259488710aef015336c927
+- https://github.com/robisim74/ngx-datetime/commit/2acd8a632716cfd188259488710aef015336c927
 
 If you are still using _index.ts_, see also the following commit to rename it:
-- https://github.com/robisim74/angular-library-starter/commit/583f79b1885d04cdeee897b2a7a2bc16a7564ea9
+- https://github.com/robisim74/ngx-datetime/commit/583f79b1885d04cdeee897b2a7a2bc16a7564ea9
 
 <a name="Oct 14, 2017"></a>
 ### Oct 14, 2017

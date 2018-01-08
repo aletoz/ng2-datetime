@@ -1,11 +1,11 @@
-# angular-library-starter
-[![Build Status](https://travis-ci.org/robisim74/angular-library-starter.svg?branch=master)](https://travis-ci.org/robisim74/angular-library-starter)
+# ngx-datetime
+[![Build Status](https://travis-ci.org/robisim74/ngx-datetime.svg?branch=master)](https://travis-ci.org/robisim74/ngx-datetime)
 >Build an Angular library compatible with AoT compilation &amp; Tree shaking.
 
 This starter allows you to create a library for **Angular v5** apps written in _TypeScript_, _ES6_ or _ES5_. 
 The project is based on the official _Angular_ packages.
 
-Get the [Changelog](https://github.com/robisim74/angular-library-starter/blob/master/CHANGELOG.md).
+Get the [Changelog](https://github.com/robisim74/ngx-datetime/blob/master/CHANGELOG.md).
 
 ## Contents
 * [1 Project structure](#1)
@@ -37,7 +37,7 @@ Get the [Changelog](https://github.com/robisim74/angular-library-starter/blob/ma
 ## <a name="2"></a>2 Customizing
 1. Update [Node & npm](https://docs.npmjs.com/getting-started/installing-node).
 
-2. Rename `angular-library-starter` and `angularLibraryStarter` everywhere to `my-library` and `myLibrary`. Also customize the `license-banner.txt` file.
+2. Rename `ngx-datetime` and `angularLibraryStarter` everywhere to `my-library` and `myLibrary`. Also customize the `license-banner.txt` file.
 
 3. Update in `package.json` file:
     - version: [Semantic Versioning](http://semver.org/)
@@ -130,10 +130,10 @@ The library is compatible with _AoT compilation_.
 ## <a name="8"></a>8 What it is important to know
 1. `package.json`
 
-    * `"main": "./bundles/angular-library-starter.umd.js"` legacy module format 
-    * `"module": "./esm5/angular-library-starter.js"` flat _ES_ module, for using module bundlers such as _Rollup_ or _webpack_: 
+    * `"main": "./bundles/ngx-datetime.umd.js"` legacy module format 
+    * `"module": "./esm5/ngx-datetime.js"` flat _ES_ module, for using module bundlers such as _Rollup_ or _webpack_: 
     [package module](https://github.com/rollup/rollup/wiki/pkg.module)
-    * `"es2015": "./esm2015/angular-library-starter.js"` _ES2015_ flat _ESM_ format, experimental _ES2015_ build
+    * `"es2015": "./esm2015/ngx-datetime.js"` _ES2015_ flat _ESM_ format, experimental _ES2015_ build
     * `"peerDependencies"` the packages and their versions required by the library when it will be installed
 
 2. `tsconfig.json` file used by _TypeScript_ compiler
@@ -174,10 +174,10 @@ The library is compatible with _AoT compilation_.
 
 ## Previous versions
 - **Angular v4**
-    - [Branch](https://github.com/robisim74/angular-library-starter/tree/angular_v4)
+    - [Branch](https://github.com/robisim74/ngx-datetime/tree/angular_v4)
 
 - **Angular v2**
-    - [Branch](https://github.com/robisim74/angular-library-starter/tree/angular_v2)
+    - [Branch](https://github.com/robisim74/ngx-datetime/tree/angular_v2)
 
 ## License
 MIT
