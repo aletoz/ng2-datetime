@@ -1,6 +1,6 @@
 {
     "name": "ngx-datetime",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "ngx-datetime based on ng2-datetime",
     "main": "./bundles/ngx-datetime.umd.js",
     "module": "./esm5/ngx-datetime.js",
