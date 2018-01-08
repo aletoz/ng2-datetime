@@ -3,6 +3,8 @@
 
 Datetime picker (plugins wrapper) for Angular2+ (Angular 5 compatible by https://github.com/robisim74/angular-library-starter).
 
+##### NPM PACKAGE: https://www.npmjs.com/package/ngx-datetime
+
 ##### DEMO: https://nkalinov.github.io/ng2-datetime
 
 ## Dependencies
