@@ -1,5 +1,5 @@
-# ng2-datetime
-[![npm version](https://badge.fury.io/js/ng2-datetime.svg)](https://badge.fury.io/js/ng2-datetime)
+# ngx-datetime
+[![npm version](https://badge.fury.io/js/ngx-datetime.svg)](https://badge.fury.io/js/ngx-datetime)
 
 
 Angular 5 compatible (by https://github.com/robisim74/angular-library-starter) fork of https://github.com/nkalinov/ng2-datetime datetime picker (plugins wrapper)
@@ -19,11 +19,11 @@ Angular 5 compatible (by https://github.com/robisim74/angular-library-starter) f
     - or use the bundled version from `src/vendor/bootstrap-timepicker`
 
 ## Installation
-`npm install --save ng2-datetime`
+`npm install --save ngx-datetime`
 
 ## Usage
 1. import some way or another the required dependencies
-2. `import {NKDatetime} from 'ng2-datetime/ng2-datetime';`
+2. `import {NKDatetime} from 'ngx-datetime/ngx-datetime';`
 3. Add to your component's directives property
 ```
 @Component({
