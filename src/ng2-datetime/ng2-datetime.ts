@@ -47,7 +47,7 @@ const CUSTOM_ACCESSOR = {
                     <i [ngClass]="timepickerOptions.icon || 'glyphicon glyphicon-time'"></i>
                 </span>
             </div>
-            <button *ngIf="hasClearButton" type="button" (click)="clearModels()">Clear</button>
+            <button *ngIf="hasClearButton" type="button" (click)="clearModels(true)">Clear</button>
         </div>
     `,
     styles: [
@@ -156,8 +156,10 @@ export class NKDatetime implements ControlValueAccessor, AfterViewInit, OnDestro
         }
     }
 
-    clearModels() {
-        this.onChange(undefined);
+	clearModels(updateModel?: boolean) {
+		if (updateModel) {
+			this.onChange(undefined);
+		}
         if (this.timepicker) {
             this.timepicker.timepicker('setTime', null);
         }
