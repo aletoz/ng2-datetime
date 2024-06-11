@@ -1,5 +1,5 @@
 {
-    "name": "ngx-datetime",
+    "name": "@aletoz/ngx-datetime",
     "version": "1.0.1",
     "description": "ngx-datetime based on ng2-datetime",
     "main": "./bundles/ngx-datetime.umd.js",
@@ -12,14 +12,18 @@
         "publish-lib": "npm publish ./dist",
         "publish-lib:next": "npm publish --tag next ./dist",
         "compodoc": "compodoc -p tsconfig.json",
-        "compodoc-serve": "compodoc -s"
+        "compodoc-serve": "compodoc -s",
+				"npm-login": "npm login --scope=@aletoz --registry=https://npm.pkg.github.com"
     },
     "typings": "./ngx-datetime.d.ts",
     "author": "",
     "repository": {
         "type": "git",
-        "url": "https://github.com/dmaciaszek/ng2-datetime"
+        "url": "https://github.com/aletoz/ng2-datetime"
     },
+		"publishConfig": {
+			"registry": "https://npm.pkg.github.com"
+		},
     "bugs": {
         "url": ""
     },
